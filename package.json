@@ -1,0 +1,44 @@
+{
+  "name": "homebridge-home-security-system",
+  "displayName": "Homebridge Home Security System",
+  "version": "1.0.0",
+  "description": "Homebridge plugin security system accessory.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm install -g && homebridge -I -D",
+    "build": "exit 0"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "security system",
+    "alarm",
+    "category-security",
+	"blynk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DomiBot/homebridge-home-security-system.git"
+  },
+  "author": "Domi",
+  "license": "ISC",
+  "bugs": {
+    "url": "http://github.com/DomiBot/homebridge-home-security-system/issues"
+  },
+  "homepage": "https://github.com/DomiBot/homebridge-home-security-system#readme",
+  "engines": {
+    "node": ">=10.x",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.2.1",
+    "ffmpeg": "^0.0.4",
+    "node-fetch": "^2.6.7",
+    "node-persist": "^3.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}
